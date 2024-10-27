@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hypermedia pagination sample.
+"""returns a dictionary containing the following key-value pairs
 """
 import csv
 import math
