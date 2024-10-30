@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deletion-resilient hypermedia pagination
+"""return a dictionary with the following key-value pairs:
 """
 import csv
 from typing import Dict, List
