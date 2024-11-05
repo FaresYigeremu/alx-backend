@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" A Basic Flask app.
+"""
+Basic Babel setup
 """
 from flask_babel import Babel
 from flask import Flask, render_template
@@ -27,4 +28,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
